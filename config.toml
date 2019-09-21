@@ -1,5 +1,5 @@
-# baseURL = "https://cascadiadataalliance.org/"
-baseURL = "https://fredhutch.github.io/cascadiadataalliance.org/"
+baseURL = "https://cascadiadataalliance.org/"
+# baseURL = "https://fredhutch.github.io/cascadiadataalliance.org/"
 languageCode = "en-us"
 title = "Cascadia Data Alliance"
 publishDir = "docs"

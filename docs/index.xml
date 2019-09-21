@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Cascadia Data Alliance</title>
-    <link>https://fredhutch.github.io/cascadiadataalliance.org/</link>
+    <link>https://cascadiadataalliance.org/</link>
     <description>Recent content in Home on Cascadia Data Alliance</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Sep 2019 08:33:02 -0700</lastBuildDate>
     
-	<atom:link href="https://fredhutch.github.io/cascadiadataalliance.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cascadiadataalliance.org/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
