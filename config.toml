@@ -1,0 +1,10 @@
+# baseURL = "https://cascadiadataalliance.org/"
+baseURL = "https://fredhutch.github.io/cascadiadataalliance.org/"
+languageCode = "en-us"
+title = "Cascadia Data Alliance"
+publishDir = "docs"
+theme = "cayman-hugo-theme"
+
+[params]
+    project_name = "The Cascadia Data Alliance"
+    project_tagline = "Data Science Collaborations"
