@@ -1,7 +1,8 @@
 ---
 title: "Home"
+Title: "Home"
 date: 2019-09-21T08:33:02-07:00
-draft: true
+draft: false
 ---
 
 ## Welcome to the Cascadia Data Alliance
