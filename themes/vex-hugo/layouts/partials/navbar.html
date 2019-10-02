@@ -1,0 +1,21 @@
+{{- with .Site.Params.navbar }}
+<div class="container">
+  <nav class="navbar navigation" id="top-nav">
+    <div class="navbar-brand logo" id="logo" style="width:200px">
+      <img class="logo" src="{{ .logo }}" alt="{{ .alt }}">
+    </div>
+    <button class="navbar-toggler hidden-lg-up float-lg-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" >
+      <i class="tf-ion-android-menu"></i>
+    </button>
+    <div class="collapse navbar-toggleable-md" id="navbarResponsive">
+      <ul class="nav navbar-nav menu float-lg-right" id="top-nav">
+      {{- range .menu }}
+        <li class="active">
+          <a href="{{ .link }}">{{ .text }}</a>
+        </li>
+      {{- end }}
+      </ul>
+    </div>
+  </nav>
+</div>
+{{- end }}
