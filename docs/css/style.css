@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Yantramanav";
-  src: url("fonts/Yantramanav-Black.ttf");
+  src: url("../fonts/Yantramanav-Black.ttf");
 }
 @font-face {
   font-family: "TradeGothic";
-  src: url("fonts/TradeGothic");
+  src: url("../fonts/TradeGothic");
 }
 /*--
     Common Css
@@ -339,19 +339,16 @@ a:active {
 }
 .navigation .site-logo {
   float: left;
+  width: 200px;
 }
 .navigation .navbar-brand {
   display: inline-block;
-  float:left;
-  width
 }
 .navigation .navbar-toggler {
   background: #fff;
   outline: none;
   border-radius: 0;
   float: right;
-  vertical-align: middle;
-  padding-top: 40px;
 }
 .navigation .navbar-toggler i {
   font-size: 22px;
@@ -374,7 +371,7 @@ a:active {
 }
 .menu li {
   display: inline-block;
-  margin: 30 10px;
+  margin: 0 10px;
 }
 .menu li a {
   color: #444;
