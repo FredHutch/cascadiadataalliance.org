@@ -4,6 +4,7 @@ externalURL = "https://www.fredhutch.org/en/about/about-the-hutch/institutional-
 languageCode = "en-us"
 title = "Cascadia Data Alliance"
 theme = "vex-hugo"
+publishDir = "docs"
 
 [params]
     project_name = "The Cascadia Data Alliance"
