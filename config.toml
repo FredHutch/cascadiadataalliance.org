@@ -29,6 +29,12 @@ publishDir = "docs"
     [[params.navbar.menu]]
       link = "#feature"
       text = "Features"
+    [[params.navbar.menu]]
+      link = "#about"
+      text = "About"
+    [[params.navbar.menu]]
+      link = "#try"
+      text = "Demo"
 
   # Header
   [params.header]
@@ -60,6 +66,7 @@ publishDir = "docs"
       title = "Data Sharing"
       text = "Streamline existing mechanisms related to governance and generate common approaches for data sharing agreements."
 
+  # About
   [params.promo]
     title = "About the Alliance"
     text = "The Cascadia Data Alliance is being spearheaded by the Fred Hutchinson Cancer Research Center with generous funding and in-kind support from Microsoft. Collaborating institutions include BC Cancer, the Knight Cancer Institute at Oregon Health & Science University, the University of British Columbia Data Science Institute, and the University of Washington eScience Institute."
@@ -89,6 +96,7 @@ publishDir = "docs"
 ##    # Set the images to show in the gallery
 ##    images = ["showcase-1.png", "showcase-2.png", "showcase-3.png", "showcase-4.png", "showcase-5.png", "showcase-6.png", "showcase-7.png", "showcase-8.png"]
 
+  # Demo
   [params.call_to_action]
     title = "Check out our Subscribed Search Demo"
     text = "TagSearch"
