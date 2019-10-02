@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: "Yantramanav";
   src: url("fonts/Yantramanav-Black.ttf");
@@ -43,12 +42,13 @@ h2 {
   line-height: 35px;
   font-family: "Yantramanav", sans-serif;
   -webkit-font-smoothing: antialiased;
+  color: #777777;
 }
 
 h3 {
   font-size: 23px;
   line-height: 25px;
-  color: #fff;
+  color: #777777;
   font-family: "Yantramanav", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -59,12 +59,21 @@ h4 {
   font-weight: 400;
   font-family: "Yantramanav", sans-serif;
   -webkit-font-smoothing: antialiased;
+  color: #fff;
+}
+
+h5 {
+  font-family: "TradeGothic", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
 }
 
 h6 {
   color: #fff;
   font-family: "Yantramanav", sans-serif;
   -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 p {
@@ -223,7 +232,7 @@ a:active {
   font-family: "themefisher-font" !important;
 }
 .pre-loader:before {
-  content: "";
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -397,14 +406,12 @@ a:active {
 }
 
 .promo-details h2 {
-  color: #fff;
   font-weight: 700;
   margin-bottom: 10px;
   padding-bottom: 0;
   text-align: left;
 }
 .promo-details p {
-  color: #fff;
   font-size: 18px;
 }
 
@@ -485,7 +492,7 @@ a:active {
   color: #9F2158;
 }
 .testimonials .testimonial-block p {
-  font-family: "TradeGothic", serif;
+  font-family: "TradeGothic", sans-serif;
   font-size: 14px;
   color: #777;
 }
