@@ -1,4 +1,12 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Yantramanav";
+  src: url("fonts/Yantramanav-Black.ttf");
+}
+@font-face {
+  font-family: "TradeGothic";
+  src: url("fonts/TradeGothic");
+}
 /*--
     Common Css
 --*/
@@ -7,7 +15,7 @@ body {
   font-weight: 300;
   line-height: 25px;
   color: #3b4045;
-  font-family: url("../fonts/Yantramanav-Black.ttf"), sans-serif;
+  font-family: "Yantramanav", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -19,40 +27,60 @@ h5,
 h6 {
   font-weight: 300;
   margin: 0px;
+  font-family: "Yantramanav", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1 {
   font-size: 44px;
   line-height: 56px;
+  font-family: "Yantramanav", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 h2 {
   font-size: 30px;
   line-height: 35px;
+  font-family: "Yantramanav", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 h3 {
   font-size: 23px;
   line-height: 25px;
   color: #fff;
+  font-family: "Yantramanav", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 h4 {
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
+  font-family: "Yantramanav", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h6 {
+  color: #fff;
+  font-family: "Yantramanav", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 p {
   font-size: 18px;
   line-height: 25px;
   margin: 0px;
+  font-family: "Yantramanav", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 ul {
   padding: 0;
   margin: 0;
   list-style: none;
+  font-family: "Yantramanav", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -60,6 +88,8 @@ a {
   -moz-transition: all 0.2s ease-in-out 0s;
   -o-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;
+  font-family: "Yantramanav", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 .mt-100 {
@@ -67,7 +97,7 @@ a {
 }
 
 .bg-1 {
-  background-image: url(../images/call-to-action.jpg);
+  background-color: #9F2158;
 }
 
 .bg-opacity {
@@ -344,11 +374,13 @@ a:active {
 /*--
     feature start
 --*/
+.feature {
+  background: #9F2158;
+}
 .feature.section {
   padding-bottom: 100px;
 }
 .feature .feature-box {
-  background: #9F2158;
   margin-bottom: 40px;
 }
 .feature .feature-box i {
@@ -453,7 +485,7 @@ a:active {
   color: #9F2158;
 }
 .testimonials .testimonial-block p {
-  font-family: url("../fonts/TradeGothic"), serif;
+  font-family: "TradeGothic", serif;
   font-size: 14px;
   color: #777;
 }
