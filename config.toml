@@ -39,7 +39,7 @@ publishDir = "docs"
   # Header
   [params.header]
     title = "The Cascadia Data Alliance"
-    text = "The Cascadia region of North America is home to some of the world’s leading technology, research, and medical organizations. Large amounts of biomedical research data are being generated in this geographical area that could be used to support accelerated research if shared effectively. The Cascadia Data Alliance, spearheaded by Fred Hutchinson Cancer Research Center, is developing a data sharing ecosystem to position the region as a global leader in data-driven biomedical research and healthcare, now and into the future."
+    text = "The Cascadia region of North America is home to some of the world’s leading technology, research, and medical organizations. Large amounts of biomedical research data are being generated in this geographical area that could be used to support accelerated research if shared effectively. The Cascadia Data Alliance, spearheaded by Fred Hutchinson Cancer Research Center, is developing a data sharing ecosystem to position the region as a global leader in data-driven biomedical research and healthcare, now and into the future. "
   [params.header.button]
       link = "https://www.fredhutch.org/en/about/about-the-hutch/institutional-partners-collaborations/cascadia-data-alliance.html"
       text = "More Information"
