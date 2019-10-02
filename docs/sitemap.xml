@@ -7,11 +7,11 @@
   </url>
   
   <url>
-    <loc>https://cascadiadataalliance.org/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
   
   <url>
-    <loc>https://cascadiadataalliance.org/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
   
 </urlset>

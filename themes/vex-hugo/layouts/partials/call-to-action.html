@@ -1,0 +1,16 @@
+{{- with .Site.Params.call_to_action }}
+<section class="call-to-action section bg-opacity bg-1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 wow text-center">
+        <div class="block">
+          <h2 class="subheading">{{ .title }}</h2>
+          <div class="col-lg-6 offset-lg-3">
+           <a class="btn btn-main" href="{{ .link }}" role="button">{{ .button_text }}</a>
+          </div><!-- /.col-lg-6 -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- #call-to-action close -->
+{{- end }}

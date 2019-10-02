@@ -1,7 +1,7 @@
 // Variables
-$primary-font: 'Josefin Sans', sans-serif;
+$primary-font: url('../fonts/Yantramanav-Black.ttf'), sans-serif;
 
-$secondary-font: 'Droid Serif', serif;
+$secondary-font: url('../fonts/TradeGothic'), serif;
 
 $icon-font: 'themefisher-font' !important;
 
@@ -41,6 +41,7 @@ h2 {
 h3 {
     font-size: 23px;
     line-height: 25px;
+    color: #fff;
 }
 h4 {
   font-size: 20px;
@@ -151,7 +152,7 @@ a:active {
   font-size: 18px;
   padding: 15px 40px;
   display: inline-block;
-  background-color: #f9a743;
+  background-color: #9F2158;
   -moz-box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
   -webkit-box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
   box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
@@ -161,7 +162,7 @@ a:active {
   background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
   &:hover,
   &:focus {
-    background-color: #f9a743;
+    background-color: #9F2158;
     color:#fff;
   }
 
@@ -195,7 +196,11 @@ a:active {
 .pre-loader {
   width: 130px; 
   height: 130px;
+<<<<<<< HEAD
+  background: #9F2158; 
+=======
   background: #f9a743; 
+>>>>>>> master
   border-radius: 50%;
   animation: loading 6s infinite reverse linear;
   position: relative;
@@ -288,6 +293,10 @@ a:active {
     margin:0;
     border:0;
 
+  .site-logo{
+    float:left;
+  }
+
   .navbar-brand {
     display: inline-block;
   }
@@ -306,6 +315,9 @@ a:active {
 
 .logo {
   display: inline-block;
+  float: left;
+  width: 200px;
+
   h1 {
     color: #444;
     font-size: 25px;
@@ -342,6 +354,7 @@ a:active {
     padding-bottom: 100px;
   }
   .feature-box {
+  background: #9F2158;
     margin-bottom: 40px;
     i {
       font-size: 30px;
@@ -365,7 +378,6 @@ a:active {
 
 // promo-details
 .promo-details {
-  background: #f9a743;
   
   h2 {
     color:#fff;
@@ -447,7 +459,7 @@ a:active {
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
-      background:#f9a743;
+      background:#9F2158;
       padding:5px 10px;
       border-radius: 40px;
       width: 50px;
@@ -485,7 +497,7 @@ a:active {
       font-size: 40px;
       display: inline-block;
       margin-bottom:20px;
-      color:#f9a743;
+      color:#9F2158;
     }
     p {
       font-family: $secondary-font;
@@ -570,6 +582,7 @@ footer {
   padding: 50px 0px;
   .footer-logo {
     color:#555;
+    width:300px;
   }
   p.copyright-text {
     font-weight: 300;
