@@ -3,17 +3,16 @@
   <div class="container text-center">
     <div class="row">
       <div class="col-md-12">
-        <div class="block">
-          <img class="logo" src="{{ .logo }}" alt="{{ .baseURL }}">
+        <img class="logo" src="{{ .logo }}" alt="{{ .baseURL }}">
+        <div class="block" style="float:right;">
           <a href="{{.Site.ExternalURL}}" class="footer-logo">{{ .externalLogo}}</a>
           <ul class="menu">
           {{- range .menu }}
             <li>
-		<a href="{{ .link }}">{{ .text }}</a>
+		      <a href="{{ .link }}">{{ .text }}</a>
             </li>
           {{- end }}
           </ul>
-          <p class="copyright-text">Copyright &copy; <a href="http://www.Themefisher.com">Themefisher</a>| All right reserved.</p>
         </div>
       </div>
     </div>
