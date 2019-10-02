@@ -1,7 +1,17 @@
-// Variables
-$primary-font: url('../fonts/Yantramanav-Black.ttf'), sans-serif;
+@font-face {
+  font-family: "Yantramanav";
+  src: url("fonts/Yantramanav-Black.ttf");
+}
 
-$secondary-font: url('../fonts/TradeGothic'), serif;
+@font-face {
+  font-family: "TradeGothic";
+  src: url("fonts/TradeGothic");
+}
+
+// Variables
+$primary-font: "Yantramanav", sans-serif;
+
+$secondary-font: "TradeGothic", serif;
 
 $icon-font: 'themefisher-font' !important;
 
@@ -18,8 +28,8 @@ body {
     font-weight: 300;
     line-height: 25px;
     color: #3b4045;
-    font-family: $primary-font;
-      -webkit-font-smoothing: antialiased;
+  font-family: $primary-font;
+  -webkit-font-smoothing: antialiased;
 }
 h1,
 h2,
@@ -28,35 +38,54 @@ h4,
 h5,
 h6 {
     font-weight: 300;
-    margin: 0px;
+    margin: 0;
+  font-family: $primary-font;
+  -webkit-font-smoothing: antialiased;
 }
 h1 {
   font-size: 44px;
   line-height: 56px;
+  font-family: $primary-font;
+  -webkit-font-smoothing: antialiased;
 }
 h2 {
   font-size: 30px;
   line-height: 35px;
+  font-family: $primary-font;
+  -webkit-font-smoothing: antialiased;
 }
 h3 {
     font-size: 23px;
     line-height: 25px;
     color: #fff;
+  font-family: $primary-font;
+  -webkit-font-smoothing: antialiased;
 }
 h4 {
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
+  font-family: $primary-font;
+  -webkit-font-smoothing: antialiased;
+}
+h6 {
+  color: #fff;
+  font-family: $primary-font;
+  -webkit-font-smoothing: antialiased;
 }
 p {
     font-size: 18px;
     line-height: 25px;
-    margin: 0px;
+    margin: 0;
+  font-family: $primary-font;
+  -webkit-font-smoothing: antialiased;
 }
 ul {
     padding: 0;
     margin: 0;
     list-style: none;
+  font-family: $primary-font;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -64,6 +93,8 @@ a {
     -moz-transition: all 0.2s ease-in-out 0s;
     -o-transition: all 0.2s ease-in-out 0s;
     transition: all 0.2s ease-in-out 0s;
+  font-family: $primary-font;
+  -webkit-font-smoothing: antialiased;
 }
 
 .mt-100 {
@@ -71,7 +102,7 @@ a {
 }
 
 .bg-1 {
-  background-image: url(../images/call-to-action.jpg);
+  background-color: #9F2158;
 }
 
 .bg-opacity {
@@ -218,8 +249,8 @@ a:active {
 
 @keyframes loading {
   /*  */
-  0% { box-shadow: inset 0 0 0 80px #f9a743; }
-  8.49% { background: #f9a743; box-shadow: inset 0 0 0 160px #f9a743; }
+  0% { box-shadow: inset 0 0 0 80px #9F2158; }
+  8.49% { background: #9F2158; box-shadow: inset 0 0 0 160px #9F2158; }
   /* orange */
   8.5% { box-shadow: inset 0 0 0 0 #ff8133; }
   24.99% { background: #ff8133; box-shadow: inset 0 0 0 160px #ff8133; }
@@ -227,8 +258,8 @@ a:active {
   25% { box-shadow: inset 0 0 0 0 #ffbe1a; }
   41.49% { background: #ffbe1a; box-shadow: inset 0 0 0 160px #ffbe1a; }
   /*  */
-  41.5% { box-shadow: inset 0 0 0 0 #f9a743; }
-  57.99% { background: #f9a743; box-shadow: inset 0 0 0 160px #f9a743; }
+  41.5% { box-shadow: inset 0 0 0 0 #9F2158; }
+  57.99% { background: #9F2158; box-shadow: inset 0 0 0 160px #9F2158; }
   /* blue */
   58% { box-shadow: inset 0 0 0 0 #00b5d9; }
   74.49% { background: #00b5d9; box-shadow: inset 0 0 0 160px #00b5d9; }
@@ -236,8 +267,8 @@ a:active {
   74.5% { box-shadow: inset 0 0 0 0 #9772e5; }
   90.99% { background: #9772e5; box-shadow: inset 0 0 0 160px #9772e5; }
   /*  */
-  91% { box-shadow: inset 0 0 0 0 #f9a743; }
-  100% { background: #f9a743; box-shadow: inset 0 0 0 80px #f9a743; }
+  91% { box-shadow: inset 0 0 0 0 #9F2158; }
+  100% { background: #9F2158; box-shadow: inset 0 0 0 80px #9F2158; }
 }
 
 
@@ -313,13 +344,13 @@ a:active {
   display: inline-block;
   float: left;
   width: 200px;
-
   h1 {
     color: #444;
     font-size: 25px;
     margin:0;
     line-height:1;
   }
+
 }
 
 .menu {
@@ -346,11 +377,11 @@ a:active {
 --*/
 
 .feature {
+  background: #9F2158;
   &.section {
     padding-bottom: 100px;
   }
   .feature-box {
-  background: #9F2158;
     margin-bottom: 40px;
     i {
       font-size: 30px;
