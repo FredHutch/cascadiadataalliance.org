@@ -1,10 +1,18 @@
+title = "Cascadia Data Alliance"
 baseURL = "https://cascadiadataalliance.org/"
 externalURL = "https://www.fredhutch.org/en/about/about-the-hutch/institutional-partners-collaborations/cascadia-data-alliance.html"
-# baseURL = "https://fredhutch.github.io/cascadiadataalliance.org/"
 languageCode = "en-us"
-title = "Cascadia Data Alliance"
+lang = "en"
 theme = "vex-hugo"
 publishDir = "docs"
+disablekinds = ["sitemap"]
+
+[Page]
+    permalink = "https://cascadiadataalliance.org/"
+
+[Sitemap]
+    filename = "sitemap.xml"
+
 
 [params]
     project_name = "The Cascadia Data Alliance"
